@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0 auto;
+    width:70%;
+}
+
+/*REGOLE PER NAV*/
+.nav-container{
+    height: 100px;
+    background-color:red;
+    padding: 20px 5px;
+    position:absolute;
+    top:20px;
+    right: 5px;
+    text-align: center;
+}
+
+li{
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    padding:5px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+li>a{
+    text-decoration: none;
+}
+
+/*REGOLE STRUTTURE CLASSI GENERALI*/
+
+.structure-section{
+    height: 80vh;
+    position:relative;
+    text-align: center;
+}
+
+.structure-bg{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/01.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    .text-shoes{
+        width: 350px;
+        font-size: 30px;
+        position: absolute;
+        bottom:100px;
+        left: 380px;
+        color:yellow;
+        text-transform: uppercase;
+}
+
+/*SECTION-ONE*/
+
+.section-one{
+    background-color: red;
+}
+
+.bg-one{
+    background-image: url(../img/01.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*SECTION-TWO*/
+
+.bg-two{
+    background-image: url(../img/02.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.section-two{
+    background-color:green;
+}
+
+/*SECTION THREE*/
+
+.bg-three{
+    background-image: url(../img/03.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.section-three{
+    background-color:yellow;
+}
+
+.green{
+    color: green;
+}
